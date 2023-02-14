@@ -8,15 +8,15 @@
 int main(){
 
     int y;
-    printf("Enter year;");
+    printf("Enter year:");
     scanf("%d",&y);
     if (y%4==0)
     {
-        printf("Enterd year is leap year");
+        printf("Enterd year is leap year\n");
         
     }
     else{
-        printf("Enterd year is not leap year");
+        printf("Enterd year is not leap year\n");
     }
         
 
